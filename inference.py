@@ -2,7 +2,7 @@ import torch
 from PIL import Image
 from utils import *
 import torch.nn.functional as F
-import numpy as np
+import numpy as np 
 
 def get_3angle(image, dino, val_preprocess, device):
     
