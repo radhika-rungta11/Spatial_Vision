@@ -4,14 +4,9 @@
 
 
 
-*Equal Contribution
 
 
-<a href='https://arxiv.org/abs/2412.18605'><img src='https://img.shields.io/badge/arXiv-Orient Anything-red' alt='Paper PDF'></a>
-<a href='https://orient-anything.github.io'><img src='https://img.shields.io/badge/Project_Page-Orient Anything-green' alt='Project Page'></a>
-<a href='https://huggingface.co/spaces/Viglong/Orient-Anything'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
-<a href='https://huggingface.co/papers/2412.18605'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow'></a>
-</div>
+
 
 **Orient Anything**, a robust image-based object orientation estimation model. By training on 2M rendered labeled images, it achieves strong zero-shot generalization ability for images in the wild.
 
@@ -23,7 +18,7 @@
 
 ## Pre-trained models
 
-We provide **three models** of varying scales for robust object orientation estimation in images:
+ **three models** of varying scales for robust object orientation estimation in images:
 
 | Model | Params | Checkpoint |
 |:-|-:|:-:|
@@ -104,16 +99,5 @@ To avoid ambiguity, our model only supports inputs that contain images of a sing
 ### Test-Time Augmentation
 In order to further enhance the robustness of the model，We further propose the test-time ensemble strategy. The input images will be randomly cropped into different variants, and the predicted orientation of different variants will be voted as the final prediction result. We implement this strategy in functions `get_3angle_infer_aug()` and `get_crop_images()`.
 
-## Citation
 
-If you find this project useful, please consider citing:
-
-```bibtex
-@article{orient_anything,
-  title={Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models},
-  author={Wang, Zehan and Zhang, Ziang and Pang, Tianyu and Du, Chao and Zhao, Hengshuang and Zhao, Zhou},
-  journal={arXiv:2412.18605},
-  year={2024}
-}
-```
 
