@@ -5,7 +5,7 @@ from vision_tower import DINOv2_MLP
 from transformers import AutoImageProcessor
 import torch
 from inference import *
-from utils import *
+from utils import * 
 
 from huggingface_hub import hf_hub_download
 ckpt_path = hf_hub_download(repo_id="Viglong/Orient-Anything", filename="ronormsigma1/dino_weight.pt", repo_type="model", cache_dir='./', resume_download=True)
