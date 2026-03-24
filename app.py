@@ -1,7 +1,7 @@
 import gradio as gr
 from paths import *
 
-from vision_tower import DINOv2_MLP
+from vision_tower import DINOv2_MLP  
 from transformers import AutoImageProcessor
 import torch
 from inference import *
