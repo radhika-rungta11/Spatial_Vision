@@ -2,7 +2,7 @@ import typing as t
 from functools import partial
 
 import numpy as np
-from copy import deepcopy
+from copy import deepcopy  
 from .canvas import Canvas
 
 from . import speedup
