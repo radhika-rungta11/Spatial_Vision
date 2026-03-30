@@ -9,7 +9,7 @@ from . import speedup
 
 
 # 2D part
-
+  
 
 class Vec2d:
     __slots__ = "x", "y", "arr"
