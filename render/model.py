@@ -3,7 +3,7 @@ from PIL import Image
 from .core import Vec4d
 
 
-class Model:
+class Model: 
     def __init__(self, filename, texture_filename):
         """
         https://en.wikipedia.org/wiki/Wavefront_.obj_file#Vertex_normal_indices
