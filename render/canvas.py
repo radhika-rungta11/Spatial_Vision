@@ -4,7 +4,7 @@ from PIL import Image, ImageColor, ImageOps, ImageChops, ImageFilter
 import numpy as np    
 
 class Canvas:
-    def __init__(self, filename=None, height=500, width=500):
+    def __init__(self, filename=None, height=500, width=500):  
         self.filename = filename
         self.height, self.width = height, width
         self.img = Image.new("RGBA", (self.height, self.width), (0, 0, 0, 0))
