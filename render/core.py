@@ -7,7 +7,7 @@ from .canvas import Canvas
  
 from . import speedup
 
-
+ 
 # 2D part
   
 
